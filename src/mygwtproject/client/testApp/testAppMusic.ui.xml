@@ -1,0 +1,19 @@
+<!DOCTYPE ui:UiBinder SYSTEM "http://dl.google.com/gwt/DTD/xhtml.ent">
+<ui:UiBinder xmlns:ui="urn:ui:com.google.gwt.uibinder"
+	xmlns:g="urn:import:com.google.gwt.user.client.ui">
+	<ui:style>
+	
+	</ui:style>
+	<g:HTMLPanel ui:field="musicId">
+		<g:HorizontalPanel width="525px" height="318px">
+			<g:LayoutPanel width="525px" height="318px">
+				<g:layer left="21px" width="250px" top="46px" height="172px">
+					<g:Image url="gwtproject/gwt/clean/images/MusicImage.jpg" width="250px" height="172"/>
+				</g:layer>
+				<g:layer top="75px" height="50px" left="292px" width="200px">
+					<g:HTML width="200px" height="100px">Music is my hobby. I listen to music most of the time. </g:HTML>
+				</g:layer>
+			</g:LayoutPanel>
+		</g:HorizontalPanel>
+	</g:HTMLPanel>
+</ui:UiBinder> 

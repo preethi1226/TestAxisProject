@@ -1,0 +1,28 @@
+<!DOCTYPE ui:UiBinder SYSTEM "http://dl.google.com/gwt/DTD/xhtml.ent">
+<ui:UiBinder xmlns:ui="urn:ui:com.google.gwt.uibinder"
+	xmlns:g="urn:import:com.google.gwt.user.client.ui">
+	<ui:style>
+	 .important {
+        font-weight: bold;
+    }
+	</ui:style>
+	<g:HTMLPanel >
+		<g:HorizontalPanel horizontalAlignment="ALIGN_RIGHT" width="449px" verticalAlignment="ALIGN_MIDDLE" height="31px">
+			<g:Cell horizontalAlignment="ALIGN_CENTER" verticalAlignment="ALIGN_MIDDLE">
+				<g:Label text="Preethi Casula" width="288px" horizontalAlignment="ALIGN_LEFT" height="18px" styleName="gwt-Label-Header"/>
+			</g:Cell>
+			<g:Cell horizontalAlignment="ALIGN_CENTER">
+				<g:Hyperlink text="Home" targetHistoryToken="homePG" ui:field="HomeLink" width="44px"/>
+			</g:Cell>
+			<g:Label text="|" styleName="gwt-Label-slash"/>
+			<g:Cell horizontalAlignment="ALIGN_CENTER">
+				<g:Hyperlink text="Music" targetHistoryToken="musicPG" ui:field="MusicLink" width="44px"/>
+			</g:Cell>
+				<g:Label text="|" styleName="gwt-Label-slash"/>
+				<g:Cell horizontalAlignment="ALIGN_CENTER">
+					<g:Hyperlink text="Dance" targetHistoryToken="dancePG" ui:field="DanceLink" width="44px"></g:Hyperlink>
+				</g:Cell>
+		</g:HorizontalPanel>
+		<g:Label height="20px"/>
+	</g:HTMLPanel>
+</ui:UiBinder> 
